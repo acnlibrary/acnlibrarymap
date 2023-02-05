@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
+}
+
+body {
+    background-color: rgb(88, 20, 20);
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.map {
+    position: relative;
+    display: inline-block;
+
+}
+
+.map img {
+    max-width: 100%;
+    display: block;
+}
+
+.box {
+    width: 8%;
+    height: 8%;
+    background-image: url("../รูปภาพ/pin.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+}
+
+#pin-1 {
+    top: 8%;
+    left: 67%;
+}
+
+#pin-2 {
+    top: 28%;
+    left: 82%;
+}
+
+#pin-3 {
+    top: 50%;
+    left: 75%;
+}
+
+#pin-4 {
+    top: 32%;
+    left: 77%;
+}
+
+#pin-5 {
+    top: 23%;
+    left: 66%;
+}
+
+#pin-6 {
+    top: 21%;
+    left: 52%;
+}
+
+#pin-7 {
+    top: 29%;
+    left: 57%;
+}
+
+#pin-8 {
+    top: 30%;
+    left: 41.5%;
+}
+
+#pin-9 {
+    top: 38%;
+    left: 46%;
+}
+
+#pin-10 {
+    top: 38%;
+    left: 30%;
+}
+
+#pin-11 {
+    top: 45.5%;
+    left: 35%;
+}
+
+#pin-12 {
+    top: 52%;
+    left: 21.5%;
+}
+
+#pin-14 {
+    top: 59%;
+    left: 8%;
+}
+
+#pin-15 {
+    top: 66%;
+    left: 15%;
+}
+
+
+
+#pin-17 {
+    top: 68%;
+    left: 43%;
+}
+
+#pin-18 {
+    top: 55%;
+    left: 61%;
+}
+
+.box:hover>.pin-text {
+    display: block;
+}
+
+.pin-text {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 75%;
+    white-space: nowrap;
+    display: none;
+}
+
+.pin-text h3 {
+    font-family: 'Mitr', sans-serif;
+    color: rgb(255, 255, 0);
+    text-shadow: 1px 1px 1px #000;
+}
+
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {
+    opacity: 0.7;
+}
